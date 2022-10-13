@@ -1,0 +1,29 @@
+{
+  "description": "Takes an array and returns a text value",
+  "label": "Array to text",
+  "category": "Misc",
+  "icon": "CreateIcon",
+  "options": [
+    {
+      "name": "array",
+      "label": "Array",
+      "meta": {
+        "type": "Collection",
+        "validations": { 
+          "required": true
+        }
+      }
+    },
+    {
+      "name": "result",
+      "label": "Result",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text"
+        }
+      }
+    }
+  ],
+  "yields": "NONE"
+}
